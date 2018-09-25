@@ -6,12 +6,12 @@ android {
     // apparently javadoc fails using this:
     // useLibrary 'org.apache.http.legacy'
 
-    compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    compileSdkVersion 26
+    buildToolsVersion "28.0.3"
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 24
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
 
