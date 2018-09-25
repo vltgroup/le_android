@@ -177,12 +177,12 @@ public class Utils {
             sb.append(isUsingHttp ? ", " : " ");
         }
 
-        sb.append(Utils.getFormattedTraceID(isUsingHttp)).append(" ");
-        sb.append(isUsingHttp ? ", " : " ");
+    //    sb.append(Utils.getFormattedTraceID(isUsingHttp)).append(" ");
+    //    sb.append(isUsingHttp ? ", " : " ");
 
 
-        sb.append(Utils.getFormattedDeviceId(isUsingHttp)).append(" ");
-        sb.append(isUsingHttp ? ", " : " ");
+    //    sb.append(Utils.getFormattedDeviceId(isUsingHttp)).append(" ");
+    ///    sb.append(isUsingHttp ? ", " : " ");
 
         long timestamp = System.currentTimeMillis(); // Current time in UTC in milliseconds.
         if (isUsingHttp) {
