@@ -184,12 +184,12 @@ public class Utils {
     //    sb.append(Utils.getFormattedDeviceId(isUsingHttp)).append(" ");
     ///    sb.append(isUsingHttp ? ", " : " ");
 
-        long timestamp = System.currentTimeMillis(); // Current time in UTC in milliseconds.
+    /*    long timestamp = System.currentTimeMillis(); // Current time in UTC in milliseconds.
         if (isUsingHttp) {
             sb.append("\"Timestamp\": ").append(Long.toString(timestamp)).append(", ");
         } else {
             sb.append("Timestamp=").append(Long.toString(timestamp)).append(" ");
-        }
+        } */
 
         // Append the event data
         if (isUsingHttp) {
